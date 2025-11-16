@@ -3,6 +3,9 @@
 A simple decentralized application (DApp) for registering and managing intellectual property (IP) using blockchain technology.  
 Users can register patents, copyrights, trademarks, and other forms of IP securely on the blockchain.
 
+> ⚠️ **Note:** This DApp works **only with MetaMask**.  
+> MetaMask is required for wallet connection and blockchain interactions.
+
 ---
 
 ## 🚀 Features
@@ -27,7 +30,7 @@ Users can register patents, copyrights, trademarks, and other forms of IP secure
 - **Frontend:** React (JavaScript, CSS)  
 - **Blockchain:** Sepolia Testnet (sepoliaETH)  
 - **Smart Contract:** Solidity  
-- **Wallet:** MetaMask  
+- **Wallet:** MetaMask (required)  
 
 ---
 
@@ -67,6 +70,19 @@ Using Remix, you can:
 Install dependencies:
 
 ```bash
-npm install
-npm start
+npm install 
+```
 
+Start the development server:
+
+```bash
+npm start 
+```
+
+---
+
+## 🎥 Demo Video
+
+A short walkthrough of the DApp interface:
+
+https://github.com/user-attachments/assets/9ecb1139-9b02-4c63-95b5-85070b3ba37e
